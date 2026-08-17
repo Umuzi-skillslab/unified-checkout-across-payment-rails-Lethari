@@ -5,7 +5,7 @@ import java.util.Locale;
 
 public class WalletPayment implements PaymentMethod {
 
-    private final String walletProvider; // e.g. PayPal, Ozow, Zapper
+    private final String walletProvider; // e.g. PayPal, Ozow, Zapper, ApplePay, Google Pay, etc.
     private final String walletId;
 
     public WalletPayment(String walletProvider, String walletId) {
